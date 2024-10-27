@@ -1,6 +1,6 @@
 <!-- About this App -->
 <!-- Start -->
-# Project name is Freshly.com
+# Project name is DawnFood
 # This is a food item selling website
 
 ### this site is Fully responsive

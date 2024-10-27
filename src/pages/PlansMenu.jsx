@@ -70,9 +70,9 @@ const PlansMenu = () => {
        
         <Box mt="100px" textAlign="center" >
 
-        <Image  m="auto" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/6192ce7669f68694a8b969af_Group%20(8).svg" alt="image" ></Image>
+        <Image m="auto" src="https://res.cloudinary.com/dgtxkoybf/image/upload/v1730043165/pfrujbk7ghqhgtlnjxok.png" alt="image" />
         <Text fontSize={["md","lg","2xl","4xl"]} textAlign="center" fontWeight="bold" >Flexible plans that fit your life</Text>
-        <Text textAlign="center" m="auto" w="60%" >We offer anywhere from 4–12 meals per week, with meals as low as $9.58 each. The bigger your box, the more you’ll save—and you can always pause or change your plan at any time.</Text>
+        <Text textAlign="center" m="auto" w="60%" >We offer anywhere from 4–12 meals per week, with meals as low as $1.5 each. The bigger your box, the more you’ll save—and you can always pause or change your plan at any time.</Text>
 
  {/* third */}
         <SimpleGrid w="85%" margin="auto" mt="20px"   columns={[1,2,2,2,5]} spacing='3%'  justify="space-around"   >
@@ -102,7 +102,7 @@ const PlansMenu = () => {
        <Link to={"/signup"} > <Button mt="30px" size="lg" color="white" bgColor="#3167ff" >Get Started</Button> </Link>
         <Text mt="100px" fontSize="5xl">On the Menu</Text>
         <Container mb="80px"  >
-        Whatever your lifestyle, Freshly’s got  you covered—with <u> gluten-free, dairy-free, plant-based, carb-smart, </u>and <u>calorie-conscious </u>meal options! Our heat-&-eat breakfasts, low-lift lunches, and done-for-you dinners provide an effortless alternative to everyday cooking, with nutritious prepared meals delivered fresh to your door. Explore this week’s dishes and start eating better:
+        Whatever your lifestyle, DawnFood's got  you covered—with <u> gluten-free, dairy-free, plant-based, carb-smart, </u>and <u>calorie-conscious </u>meal options! Our heat-&-eat breakfasts, low-lift lunches, and done-for-you dinners provide an effortless alternative to everyday cooking, with nutritious prepared meals delivered fresh to your door. Explore this week’s dishes and start eating better:
        </Container>
 
        <Flex  w={["90%","80%","50%","30%","20%"]} m="auto" >

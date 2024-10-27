@@ -22,7 +22,7 @@ const Gift = () => {
                 </Box>
             </SimpleGrid>
             <Text mt="40px" fontSize={["md","lg","3xl","4xl","5xl"]} ><b>Enjoy the Gift of Effortless Meals</b></Text>
-            <Text fontSize="xl" ><b> (Yes, It's Freshly.)</b></Text>
+            <Text fontSize="xl" ><b> (Yes, It's DawnFood.)</b></Text>
             <br/>
             <br/>
             <SimpleGrid columns={[1,1,1,3,3]} gap="20px" >

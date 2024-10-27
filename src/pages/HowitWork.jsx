@@ -8,9 +8,9 @@ const HowitWork = () => {
 
     return (
         <Box w="100%" textAlign="center" >
-           <Text mt="40px" fontSize={["xl","2xl","2xl","4xl","5xl"]} > <b> About Freshly </b></Text>
+           <Text mt="40px" fontSize={["xl","2xl","2xl","4xl","5xl"]} > <b> About DawnFood </b></Text>
            <Text mt="120px" fontSize={["xl","2xl","2xl","3xl","4xl"]} > <b> Heat-and-eat in 3 minutes or less </b></Text>
-           <Text mb="40px" >See just how easy it is to prepare a chef-cooked Freshly meal</Text>
+           <Text mb="40px" >See just how easy it is to prepare a chef-cooked DawnFood meal</Text>
 
            {/* embed */}
          <Box  w="62%" h={["100px","150px","240px","400px","600px"]} m="auto" > <AspectRatio   width="100%" height="100%">

@@ -56,7 +56,7 @@ const Signup = () => {
             <Button onClick={signUp} size="md" style={{/* width:"30%", */backgroundColor:"#3167ff",color:"white",}}  >Continue</Button> 
             </SimpleGrid> <br/>
             <Text> Already have an account? <Link to={"/login"} > <u> Log in. </u></Link></Text>
-            <Text>By continuing, you agree to our<u> Terms </u>  and<u> Privacy Policy</u> & will receive emails from Freshly.</Text>
+            <Text>By continuing, you agree to our<u> Terms </u>  and<u> Privacy Policy</u> & will receive emails from DawnFood.</Text>
             </Box>
         </Container>
         <CommonQ/>

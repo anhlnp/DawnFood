@@ -34,16 +34,16 @@ const Navbar = () => {
     return (
         <>
         <Link to={"/"} >
-        <Image w="4%" margin="auto" marginTop="12px" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="image" />
+        <Image w="4%" margin="auto" marginTop="12px" src="https://res.cloudinary.com/dgtxkoybf/image/upload/v1730043165/pfrujbk7ghqhgtlnjxok.png" alt="image" />
         </Link>
         <Flex pos="sticky" zIndex="50" top="0px" style={{fontWeight: "500"}}  paddingTop={"17px"} bgColor={"#fffdf7"} gap='2'  >
             
             <Box  marginLeft={"4%"}>
             <Link to={"/"} >
-                <Image w="32%" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="image" />
+                <Image w="32%" src="https://res.cloudinary.com/dgtxkoybf/image/upload/v1730043165/pfrujbk7ghqhgtlnjxok.png" alt="image" />
             </Link>
             </Box>
-            <Spacer/>
+            <Spacer/> 
 
            { navSmall && <Box display="flex" alignItems='baseline' gap="15px">
                 <Link to={"/plansmenu"} >Plans & Menu</Link>

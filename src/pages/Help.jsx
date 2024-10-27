@@ -2,7 +2,7 @@ import { SearchIcon } from "@chakra-ui/icons";
 import { Box, Button, Container, Divider, Flex, IconButton, Input, SimpleGrid, Text } from "@chakra-ui/react"
 
 const buttData = [
-    "What is Freshly?",
+    "What is DawnFood?",
     "How Does Your Service Work?",
     "Meal Plans & Pricing",
     "About the Meals",
@@ -49,7 +49,7 @@ const Help = () => {
                 <Text fontSize="2xl" >Promoted articles</Text>
                 <SimpleGrid mt="20px" columns={[1,1,2,3,3]} gap="30px 3%">
                     <Box>
-                        <Text>What's Freshly?</Text>
+                        <Text>What's DawnFood?</Text>
                         <Divider />
                     </Box>
                     <Box>

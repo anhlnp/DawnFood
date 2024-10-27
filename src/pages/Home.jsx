@@ -33,7 +33,7 @@ const Home = ()=>{
         <OntheMenu/> 
         {/* comp */} 
 
-        <Image m="auto" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/6192ce7669f68694a8b969af_Group%20(8).svg" alt="image" ></Image>
+        <Image m="auto" src="https://res.cloudinary.com/dgtxkoybf/image/upload/v1730043165/pfrujbk7ghqhgtlnjxok.png" alt="image" />
         <Text fontSize={["md","lg","2xl","6xl"]} textAlign="center" fontWeight="bold" >Flexible plans that fit your life</Text>
         <Text textAlign="center" m="auto" w="60%" >We offer anywhere from 4–12 meals per week, with meals as low as $9.58 each. The bigger your box, the more you’ll save—and you can always pause or change your plan at any time.</Text>
 
@@ -73,7 +73,7 @@ const Home = ()=>{
             <Image w="60%" h="100%" marginLeft="40%" src="https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=" ></Image>
             <Box textAlign="start" bg="#ffffff"  w="44%"  pos="relative" top={["-90%","-94%","-95%","-79%","-80%"]} left="8%" >
                 <Text /* lineHeight="35px" */ fontSize={["xl","2xl","4xl"]}   > <b> We believe eating right should be easy for everyone. </b></Text>
-               { smScreen && <Text><b>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.  </b></Text>  }
+               { smScreen && <Text><b>Each DawnFood meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.  </b></Text>  }
               <Link to={"/howitwork"} >  <Button mt={["2px","5px","10px","20px","60px"]} size="lg" bgColor="#3167ff" color="white"  >Learn More</Button> </Link>
             </Box>
         </Box>
@@ -88,7 +88,7 @@ const Home = ()=>{
                 <Input w="80%" focusBorderColor='pink.400' marginTop="10px" placeholder='ZIP' /> <br/> <br/>
                 <Button w="60%" colorScheme='blue' >Get Started</Button> <br/><br/>
                 <Text> Already have an account? <Link to={"/login"} > <u> Log in. </u></Link></Text>
-                <Text>By continuing, you agree to our<u> Terms </u>and<u> Privacy Policy. </u>& will receive emails from Freshly.</Text>
+                <Text>By continuing, you agree to our<u> Terms </u>and<u> Privacy Policy. </u>& will receive emails from DawnFood.</Text>
             </Box>
         </Flex>
         <Image id="rotate" mt="10px" w="65%" h={["30px","50px","130px"]} src="https://image.shutterstock.com/image-photo/superfoods-on-white-background-organic-260nw-794145988.jpg" ></Image>

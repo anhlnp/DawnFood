@@ -20,8 +20,8 @@ const Footer = () => {
            <Flex mt="60px"  lineHeight={"35px"} paddingTop="80px" style={{border: "outset"}} >
              <Spacer/>
             <Box >
-            <Image w="32%" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="image" />
-            <Text>© Freshly Inc.</Text>         
+            <Image w="32%" src="https://res.cloudinary.com/dgtxkoybf/image/upload/v1730043165/pfrujbk7ghqhgtlnjxok.png" alt="image" />
+            <Text>© DawnFood Inc.</Text>         
             </Box>
             <Spacer/>
 
@@ -40,7 +40,7 @@ const Footer = () => {
             <Box>
                 <Text fontSize={"2xl"} >Learn More</Text>
                 <Text>Plans & Menu</Text>
-                <Text>Why Freshly?</Text>
+                <Text>Why DawnFood?</Text>
                 <Text>Gifts</Text>
                 <Text>FAQs</Text>
                 <Text>Blog</Text>
