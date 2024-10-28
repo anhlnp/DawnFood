@@ -79,7 +79,7 @@ const Home = ()=>{
         </Box>
 
 {/* sixth */}
-        <Image mt="60px" w="65%" h={["30px","50px","130px"]} src="https://blog-images.pharmeasy.in/2020/10/16181407/shutterstock_1017075634-1.jpg" ></Image>
+        <Image mt="60px" w="60%" h={["30px","50px","200px"]} src="https://hips.hearstapps.com/hmg-prod/images/meal-prep-index-1566932947.png" ></Image>
         <Flex textAlign="start" flexDirection={["column","column","row"]} gap="40px" >
             <Box> <Image src="https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/r-d/could-reframing-food-as-medicine-counter-rising-prices-that-are-pushing-healthier-options-out-of-reach/15800277-1-eng-GB/Could-reframing-food-as-medicine-counter-rising-prices-that-are-pushing-healthier-options-out-of-reach.jpg" ></Image> </Box>
             <Box>
